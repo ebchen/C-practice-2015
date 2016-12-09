@@ -33,7 +33,7 @@ public:
 	// Adding real and imaginery separately
 	Complex operator+(const Complex& rhs)
 	{
-		return Complex(re + rhs.re, im + rhs.im); // Notice the implementation is different from the sample in the class!
+		return Complex(re + rhs.re, im + rhs.im);
 	}
 
 	// Overloading subtraction opeator
@@ -42,7 +42,7 @@ public:
 	{
 		return Complex(re - rhs.re, im - rhs.im);
 	}
-
+	// Fix later: Multiplying and Dividing overloaded incorrrect, need to FOIL
 	// Overloading multiplication opeator
 	// Multiplying real and imaginery separately    
 	Complex operator*(const Complex& rhs)
