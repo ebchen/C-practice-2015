@@ -1,4 +1,4 @@
-// Algorithm3.cpp : quick sort
+// Quick Sort Algorithm
 //
 
 #include "stdafx.h"
