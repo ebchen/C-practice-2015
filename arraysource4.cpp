@@ -1,18 +1,12 @@
 //
-// Array4 - More complex processing for array elements
 //
 #include <iostream>
 
 using namespace std;
 
-void print(int ar[], int sz); // This is only a declaration.
+void print(int ar[], int sz); 
 
-//
-// Note: your answer is expected below inside this function.
-//
-// data: The array contains original values
-// size: Total number of the elements
-//
+
 
 class Solution
 {
@@ -27,7 +21,7 @@ public:
 	}
 	void swapper(int data[], int x, int y)
 	{
-		data[x] = data[x] ^ data[y];
+		data[x] = data[x] ^ data[y];    //xor
 		data[y] = data[x] ^ data[y];
 		data[x] = data[x] ^ data[y];	
 	}
