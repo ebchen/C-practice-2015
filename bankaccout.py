@@ -16,7 +16,7 @@ class bank:
             print "sorry you have to deposit $250 or more"
         else:
             self.accountnumber = random.randint(100000,1000000000000)
-            print "your account number is",self.accountnumber
+            print "your account number is ",self.accountnumber
         
     def getbalance(self):
         return self.balance
