@@ -1,4 +1,4 @@
-// EricChenMergeSort.cpp : Defines the entry point for the console application.
+// Merge Sort of Link List
 //
 
 #include "stdafx.h"
