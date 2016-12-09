@@ -1,5 +1,5 @@
 //
-// Implement two similar swap() using 
+// swap() using 
 // - pointers
 // - references
 //
@@ -11,7 +11,6 @@ void swap_ptr(int* p1, int* p2)
 	*p1 = *p2;
 	*p2 = temp;
 
-	// Put your code here to show your understanding of pointers
 }
 
 void swap_ref(int &r1, int &r2)
@@ -19,8 +18,6 @@ void swap_ref(int &r1, int &r2)
 	int temp = r1;
 	r1 = r2;
 	r2 = temp;
-
-	// Put your code here to show your understanding of references
 }
 
 int main()
