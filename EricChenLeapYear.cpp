@@ -1,5 +1,5 @@
-// EricChenLeapYear.cpp : Defines the entry point for the console application.
-//problem: converts numbers with decimals into integers instead of reading it as an invalid year
+
+//Determines if a year is a leap year.
 
 #include "stdafx.h"
 #include <iostream>
