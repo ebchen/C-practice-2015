@@ -4,7 +4,6 @@ which supplies water to its customers. For a specified customer, the program wil
 display the amount of money which the customer will be billed for water usage during the
 current billing period.
 """
-#imports and easygui
 import easygui
 #finds customer code and meter marks and puts them into a list
 def inputfromuser():
