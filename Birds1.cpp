@@ -2,8 +2,7 @@
 //
 // Birds1.cpp
 //
-// Requirements are written as comments in this program. Follow the instructions
-// and complete the program.
+// Class Inheritance Project
 //
 ////////////////////////////////////////////////////////////////////////////////
 #include "stdafx.h"
@@ -16,32 +15,14 @@ public:
 	Bird(const std::string& val) : name(val) {}
 	const std::string& getName() { return name; }
 	virtual bool canFly() { return false; }
-	// To-do: define function "canFly()" here
-	// - "canFly()" is a virtual function
-	// - "canFly()" should return "bool" type
-	// - "canFly()" has no arguments
-	// - Optionally but not required, give "canFly()"
-	// a simple default implementation to return something...
-	//
 
 protected:
 	std::string name;
 };
-//
-// Requirements:
-// - Complete the definition of the base class "Bird"
-// - Complete the definitions of the derived classes:
-//   "Sparrow", "Chicken", "Duck", "Goose", "Penguin"
-// - More details can be found from the comments below
-//
 
-
-
-class Sparrow: public Bird // Hint: Need to finish class inheritance
+class Sparrow: public Bird 
 {
 public:
-	// Hint: each derived class need a constructor like the following to
-	// identify the name of such bird...
 	Sparrow() : Bird("Sparrow") {}
 	bool canFly() { return true; }
 
@@ -76,12 +57,6 @@ public:
 };
 
 
-////////////////////////////////////////////////////////////////////////////////
-//
-// Please do NOT change the code below!
-// When running the program, screen display will tell you if you have passed...
-//
-////////////////////////////////////////////////////////////////////////////////
 
 void research(Bird& birdy, bool expected)
 {
