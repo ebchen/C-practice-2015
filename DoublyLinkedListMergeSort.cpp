@@ -1,5 +1,4 @@
-// LinkedList9.cpp : Defines the entry point for the console application.
-//
+// Merge sort algorithm for Doubly Linked list
 
 #include "stdafx.h"
 #include <stdlib.h>
