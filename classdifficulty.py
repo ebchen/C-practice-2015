@@ -1,3 +1,6 @@
+"""
+survey with random results
+"""
 import random
 ts=0
 rl=0
