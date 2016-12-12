@@ -1,32 +1,6 @@
- ////////////////////////////////////////////////////////////////////////////////
-//
-// Problem #3: Improve Area Code Search program.
-//
-// Linux & Mac OS X:
-//
-// Build: g++ AreaCodeSearch.cpp -std=c++11 -o AreaCodeSearch
-// Run: ./AreaCodeSearch
-//
-// Windows:
-//
-// Create a C++ Solution & Console Project. Add this AreaCodeSearch.cpp into the
-// project.
-//
-// Description:
-//
-// 1) AreaCodeSearch::search() function should return the full name of a state,
-// given an area code;
-//
-// 2) AreaCodeSearch::search() function complexity best/worst/average should be
-// constant, Big-O(1);
-//
-// 3) Try not to let the data container holding the "hash-table" to store std::string
-// object for each area code - this is too much in memory consumption. It is
-// recommended to use something more efficient.
-//
-// Please remove/replace/re-work the "badImpl_" with your better implementation.
-//
-////////////////////////////////////////////////////////////////////////////////
+
+//AreaCodeSearch::search() function should return the full name of a state, given an area code;
+
 #include "stdafx.h"
 #include <fstream>
 #include <iostream>
@@ -39,9 +13,7 @@
 class AreaCodeSearch 
 {
 public:
-	//
-	// Replace with your better solution here...
-	//
+	
 	std::vector<std::string> states;
 	int hashTable[1000];
 	AreaCodeSearch()
@@ -56,9 +28,7 @@ public:
 		hashTable[areaCode] = num;
 	}
 
-	//
-	// Replace with your better solution here...
-	//
+	
 	std::string search(int areaCode)
 	{
 		if (areaCode > 999) return "NA";
@@ -70,9 +40,6 @@ public:
 		//
 	}
 
-	//
-	// Modify if needed but do not remove or change function signature
-	//
 	bool load(const char* acFile)
 	{
 		std::ifstream fin(acFile);
